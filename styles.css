@@ -1,3 +1,9 @@
+:root {
+    --dark-green: #4A8B70;
+    --light-green: #E7F0EC;
+}
+
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -9,6 +15,11 @@ body {
 /* header */
 h1  {
     font-size: 36px;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 500;
 }
 
 #intro-paragraph {
@@ -33,5 +44,68 @@ h1  {
     display: flex;
     gap: 27px;
     height: 300px;
-
 }
+
+/* proficiency section */
+
+.proficiency-section {
+    width: 563px;
+    height: 428px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 41px 28px;
+    margin: 48px 0px;
+    font-weight: 500;
+}
+
+.levels {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+.technologies {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.tech-name {
+    padding: 0px;
+    margin: 0px 0px 14px 0px;
+}
+
+#HTML, #CSS {
+    background-color: var(--dark-green);
+    width: 317px;
+    height: 26px;
+    border-radius: 7px;
+    margin-bottom: 24px;
+}
+
+#javascript {
+   background-color: var(--dark-green);
+    width: 80px;
+    height: 26px;
+    border-radius: 7px; 
+    margin-bottom: 24px;
+}
+
+#react {
+    background-color: var(--dark-green);
+    width: 20px;
+    height: 26px;
+    border-radius: 7px; 
+}
+
+.proficiency-levels {
+    display: flex;
+    gap: 46px;
+}
+
+/* skills */
+
