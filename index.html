@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Resume</title>
 </head>
-<body class="bg-[url(/images/background.png)]">
+<body>
     <!-- header section -->
-    <header class="grid grid-cols-4">
-        <div class="col-span-1">
-            <img class="w-32 h-24" src="/images/profile.jpg" alt="a resume profile image of Monique">
+    <header class="header-section">
+        <div>
+            <img class="profile-image" src="/images/profile.jpg" alt="a resume profile image of Monique">
         </div>
-        <div class="col-span-3">
+        <div>
             <h1>Monique Van Den Berg</h1>
-            <p>Software Developer who loves building practical, efficient solutions. Bringing strong problem-solving skills and attention to detail to write clean, easy-to-maintain code that makes a real difference.</p>
+            <p>I am a passionate and dedicated software developer with a strong foundation in HTML and CSS. </p>
         </div>
     </header>
 
     <main>
         <!-- proficiency and sklls section -->
-        <section class="bg-[#FFFFFF]">
+        <section class="proficiency-and-skills">
             <div>
                 <h2>Proficiency</h2>
-                <div class="flex flex-row justify-evenly">
+                <div>
                     <p>Beginner</p>
                     <p>Intermediate</p>
                     <p>Advance</p>
@@ -57,11 +56,11 @@
             </div>
         </section>
         <!-- Project section -->
-        <section>
+        <section class="project-section">
             <h2>Projects</h2>
             <div>
                 <div>
-                    <div class="flex justify-between">
+                    <div>
                         <h3>2025</h3>
                         <img src="/images/Vector.svg">
                     </div>
@@ -71,7 +70,7 @@
                     <p><span>Responsibilities:</span>Created a fully responsive and accessible resume page, using different layouts to create a visually pleasing display with funtioning links to other relevant platforms</p>
                 </div>
                 <div>
-                    <div class="flex justify-between">
+                    <div>
                         <h3>2025</h3>
                         <img src="/images/Vector.svg">
                     </div>
@@ -81,7 +80,7 @@
                     <p><span>Responsibilities:</span>Created a responsive footer section with funtioning buttons, input section and links.</p>
                 </div>
                 <div>
-                    <div class="flex justify-between">
+                    <div>
                         <h3>2025</h3>
                         <img src="/images/Vector.svg">
                     </div>
@@ -91,7 +90,7 @@
                     <p><span>Responsibilities:</span>Created a instagram page with a responsive grid layout and hover effects. Additionally, it also displayed real time like and comment data.</p>
                 </div>
                 <div>
-                    <div class="flex justify-between">
+                    <div>
                         <h3>2025</h3>
                         <img src="/images/Vector.svg">
                     </div>
@@ -103,11 +102,11 @@
             </div>
         </section>
         <!-- Education and tools section -->
-        <section>
+        <section class="education-and-tools">
             <section>
                 <h2>Education</h2>
                 <div>
-                    <div class="flex">
+                    <div>
                         <div>
                             <h4>May 2025 - Current</h4>
                             <h3>CodeSpace Academy</h3>
@@ -122,7 +121,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div>
                         <div>
                             <h4>Jan 2020 - Nov 2022</h4>
                             <h3>North West University</h3>
@@ -137,7 +136,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div>
                         <div>
                             <h4>Jan 2013 - Nov 2017</h4>
                             <h3>Richards Bay High School</h3>
@@ -192,7 +191,7 @@
         </section>
         
         <!-- Experience section -->
-        <section>
+        <section class="experience">
             <h2>Experience</h2>
             <div>
                 <div>
@@ -244,9 +243,9 @@
         </section>
     </main>
     <!-- Footer Section -->
-    <footer>
+    <footer class="footer-section">
         <h2>Let's chat! I'm ready to work on exciting projects.</h2>
-        <div class="flex flex-wrap justify-evenly">
+        <div>
             <p>moniquevdb109@gmail.com</p>
             <p>|</p>
             <p>0783446400</p>
