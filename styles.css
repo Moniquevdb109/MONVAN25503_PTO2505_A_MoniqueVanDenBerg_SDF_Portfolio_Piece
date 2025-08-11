@@ -34,7 +34,7 @@ h2 {
 
 .intro-section {
     background-color: #ffffff;
-    width: 995px;
+    width: 857px;
     padding: 59px 69px;
     border-radius: 30px;
 
@@ -53,30 +53,41 @@ h2 {
     height: 428px;
     background-color: white;
     border-radius: 30px;
-    padding: 41px 28px;
+    /* padding: 51px 27px 0px 27px; */
     margin: 48px 0px;
     font-weight: 500;
 }
 
+.proficiency-container {
+    padding: 51px 27px;
+}
+
+#proficiency-h2 {
+    border: 0px;
+    margin: 0px;
+}
 .levels {
     display: flex;
     justify-content: flex-start;
     gap: 40px;
     font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 30px;   
+    margin: 0px 0px;
 }
 
 .technologies {
     font-size: 24px;
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 25px 0px;
     
 }
 
 .tech-name {
     padding: 0px;
-    margin: 0px 0px 14px 0px;
+    margin: 0px 0px 18px 0px;
+}
+
+.react{
+    margin-bottom: 0px;
 }
 
 #HTML, #CSS {
@@ -84,7 +95,7 @@ h2 {
     width: 317px;
     height: 26px;
     border-radius: 7px;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 
 #javascript {
@@ -92,7 +103,7 @@ h2 {
     width: 80px;
     height: 26px;
     border-radius: 7px; 
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 
 #react {
@@ -100,6 +111,7 @@ h2 {
     width: 20px;
     height: 26px;
     border-radius: 7px; 
+    margin: 0px;
 }
 
 .proficiency-levels {
@@ -109,3 +121,34 @@ h2 {
 
 /* skills */
 
+.skill-section {
+    width: 706px;
+    height: 428px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 41px 28px;
+    margin: 48px 0px;
+    font-weight: 500;
+    padding: 0px
+}
+
+.skill-btn {
+    background-color: var(--light-green);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 96px;
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.proficiency-and-skills {
+    display: flex;
+    gap: 48px;
+}
+
+#skill-h2 {
+    padding: 0px;
+    margin: 28px 0px 39px 28px;
+}
