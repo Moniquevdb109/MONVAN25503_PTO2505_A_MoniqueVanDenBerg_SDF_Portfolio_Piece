@@ -219,7 +219,7 @@ h2 {
 
 #education-h2 {
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .education-h3 {
@@ -262,4 +262,51 @@ h2 {
 
 ul {
     margin: 0px;
+}
+
+/* Tools section */
+
+#aside-h2 {
+    margin: 0px 0px 32px 0px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 500;
+}
+.aside-section {
+    background-color: white;
+    max-width: 300px;
+    padding: 31px 58px 45px 58px;
+    border-radius: 30px;
+    margin-top: 48px;
+}
+.tool-div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 38px;
+    background-color: var(--light-green);
+    border-radius: 30px;
+    padding: 38px 31px;
+    margin-bottom: 30px;
+
+}
+
+.tool-grid {
+    position: relative;
+}
+.tool-btn {
+    background-color: black;
+    color: white;
+    font: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 5px 15px;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+
+.education-tool-container {
+    display: flex;
+    gap: 21px;
 }
