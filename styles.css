@@ -207,3 +207,59 @@ h2 {
     color: white;
 }
 
+/* education */
+
+.education-section {
+    background-color: white;
+    max-width: 994px;
+    border-radius: 30px;
+    padding: 29px;
+    margin-top: 48px;
+}
+
+#education-h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.education-h3 {
+    font-size: 24px;
+}
+
+.education-h3 .education-h4   {
+    font-weight: 500;
+}
+.education-h4 .par {
+    font-size: 19px;
+}
+
+.education-summary {
+    font-size: 19px;
+}
+.education-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--light-green);
+    border-radius: 30px;
+    padding: 34px 37px;
+}
+
+.education-one {
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    font-weight: 400;
+}
+
+.studies {
+    margin: 2px;
+}
+
+ul {
+    margin: 0px;
+}
