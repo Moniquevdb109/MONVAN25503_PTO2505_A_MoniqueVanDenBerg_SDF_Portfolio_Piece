@@ -220,13 +220,15 @@ h2 {
 #education-h2 {
     padding: 0px;
     margin: 0px 0px 20px 0px;
+    font-size: 33px;
+    font-weight: 500;
 }
 
 .education-h3 {
     font-size: 24px;
 }
 
-.education-h3 .education-h4   {
+.education-h3  {
     font-weight: 500;
 }
 .education-h4 .par {
@@ -257,7 +259,19 @@ h2 {
 }
 
 .studies {
-    margin: 2px;
+    margin: 4px;
+}
+
+.par {
+    font-size: 19px;
+    font-weight: 400;
+    color: #3F3D3D;
+}
+
+.par-one {
+    color: #EBF9F2;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 ul {
@@ -309,4 +323,74 @@ ul {
 .education-tool-container {
     display: flex;
     gap: 21px;
+}
+
+/* experience */
+
+#experience-h2{
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.experience-h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.experience-h4 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.par-info {
+    font-size: 19px;
+    font-weight: 400;
+    color: #3F3D3D;
+}
+
+.experience-section {
+    background-color: white;
+    border: 30px;
+    padding: 32px 27px;
+    margin-top: 48px;
+    max-width: 1316px;
+    border-radius: 30px;
+    
+}
+
+.experience-flex {
+    display: flex;
+}
+
+.experience-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--light-green);
+    border-radius: 30px;
+    padding: 19px 14px 26px 25px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-rows: repeat(3 auto);
+    gap: 20px;
+    
+}
+
+.info {
+margin: 4px;
+}
+
+.recent-btn {
+    width: 123px;
+    padding: 8px 16px;
+    background-color: #D76239;
+    color: white;
+    border: none;
+    border-radius: 142px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 16px;
 }
