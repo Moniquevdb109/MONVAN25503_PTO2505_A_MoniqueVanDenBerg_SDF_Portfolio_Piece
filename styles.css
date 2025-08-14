@@ -14,6 +14,7 @@ body {
 /* header */
 h1  {
     font-size: 36px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -192,6 +193,11 @@ h2 {
     background-color: var(--light-green);
     padding: 19px 19px 0px 19px;
     margin-bottom: 44px;
+    transition: transform 0.6s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
 }
 
 .project-grid {
@@ -242,6 +248,11 @@ h2 {
     background-color: var(--light-green);
     border-radius: 30px;
     padding: 34px 37px;
+    transition: transform 0.6s ease;
+}
+
+.education-layout:hover {
+    transform: scale(1.04);
 }
 
 .education-one {
@@ -348,6 +359,10 @@ ul {
     color: #3F3D3D;
 }
 
+.info-one {
+    color: #EBF9F2;
+}
+
 .experience-section {
     background-color: white;
     border: 30px;
@@ -368,6 +383,16 @@ ul {
     background-color: var(--light-green);
     border-radius: 30px;
     padding: 19px 14px 26px 25px;
+    transition: transform 0.6s ease;
+}
+
+.experience-layout:hover{
+    transform: scale(1.03);
+}
+
+.experience-one {
+    background-color: var(--dark-green);
+    color: white;
 }
 
 .experience-grid {
@@ -425,9 +450,19 @@ margin: 4px;
 .footer-par{
     padding: 0px;
     margin: 13px 0px 0px 0px;
+    transition: transform 0.6s ease;
+}
+
+.footer-par:hover {
+    transform: scale(1.12);
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+@media (max-width:) {
+    
 }
