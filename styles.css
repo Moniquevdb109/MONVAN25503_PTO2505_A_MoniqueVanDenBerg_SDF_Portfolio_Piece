@@ -593,7 +593,59 @@ a {
 
     /* Projects */
 
+    .project-section {
+    border-radius: 12px;
+    max-width: 291px;
+    padding: 0px 16px;
+}
+
+    #project-h2 {
+        text-align: start;
+        padding: 16px 0px 10px 0px;
+    }
+
+    .project-h3 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .project-name {
+        padding: 10px 0px 0px 0px;
+    }
+    .heart-img {
+        width: 13px;
+        height: 12px;
+    }
+    .project-line-one {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-card {
+        max-width: 260px;
+        height: auto;
+        border-radius: 30px;
+        background-color: var(--light-green);
+        padding: 19px 19px 0px 19px;
+        margin-bottom: 44px;
+        transition: transform 0.6s ease;
+    }
+
+    .project-card:hover {
+        transform: scale(1.1);
+    }
+
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        gap: 49px;
+    }
+
+    .project-one {
+        background-color: var(--dark-green);
+        color: white;
+    }
 
 
-    
 }
