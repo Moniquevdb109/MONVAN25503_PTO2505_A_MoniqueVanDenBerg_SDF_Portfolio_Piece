@@ -329,6 +329,14 @@ ul {
     left: 40px;
 }
 
+.btn-two{
+    margin-left: 12px;
+}
+
+.btn-three {
+    margin-left: 18px;
+}
+
 .education-tool-container {
     display: flex;
     gap: 21px;
@@ -597,6 +605,7 @@ a {
     border-radius: 12px;
     max-width: 291px;
     padding: 0px 16px;
+    font-size: 10px;
 }
 
     #project-h2 {
@@ -617,34 +626,23 @@ a {
         width: 13px;
         height: 12px;
     }
-    .project-line-one {
-        display: flex;
-        justify-content: space-between;
+
+    .project-brief{
+        margin-top: 0px;
     }
 
     .project-card {
-        max-width: 260px;
-        height: auto;
-        border-radius: 30px;
-        background-color: var(--light-green);
-        padding: 19px 19px 0px 19px;
-        margin-bottom: 44px;
-        transition: transform 0.6s ease;
-    }
-
-    .project-card:hover {
-        transform: scale(1.1);
+        max-width: 140px;
+        border-radius: 12px;
+        padding: 12px 9px 12px 9px;
+        margin-bottom: 17px;
     }
 
     .project-grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr) ;
-        gap: 49px;
-    }
-
-    .project-one {
-        background-color: var(--dark-green);
-        color: white;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
     }
 
 
