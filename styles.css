@@ -471,6 +471,142 @@ a {
     color: inherit;
 }
 
+@media (max-width: 768px) {
+    body {
+        margin: 30px;
+    }
+
+    h1  {
+        font-size: 32px;
+}
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .intro-paragraph {
+        font-size: 16px;
+        margin: 0px;
+}
+
+    .profile-image {
+        width: 250px;
+        border-radius: 25px;
+    }
+
+    .intro-section {
+        width: 458px;
+        padding: 40px 30px;
+        border-radius: 25px;
+
+    }
+
+    .header-section {
+        gap: 20px;
+    }
+
+    /* proficiency */
+
+    .proficiency-section {
+        width: 320px;
+        height: auto;
+        border-radius: 25px;
+        margin: 28px 0px;
+    }
+
+    .proficiency-container {
+        padding: 30px 20px;
+    }
+
+    #proficiency-h2 {
+        font-size: 26px;
+    }
+
+    .levels {
+        gap: 10px;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    .technologies {
+        font-size: 14px;
+        margin: 0px 0px 18px 0px;
+        
+    }
+
+    .tech-name {
+        padding: 0px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    .react{
+        margin-bottom: 0px;
+    }
+
+    #HTML, #CSS {
+        width: 150px;
+        height: 15px;
+        margin-bottom: 18px;
+    }
+
+    #javascript {
+        width: 60px;
+        height: 15px;
+        margin-bottom: 18px;
+    }
+
+    #react {
+        width: 20px;
+        height: 15px;
+    }
+
+    .proficiency-levels {
+        gap: 20px;
+    }
+
+    /* skills */
+
+    .skill-section {
+        width: 420px;
+        height: auto;
+        border-radius: 25px;
+        margin: 28px 0px;
+    }
+
+    .skill-btn {
+        padding: 5px 12px;
+        border-radius: 96px;
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .proficiency-and-skills {
+        gap: 20px;
+    }
+
+    #skill-h2 {
+        margin: 28px 0px 25px 28px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 @media (max-width: 375px) {
     body {
@@ -481,7 +617,7 @@ a {
         font-size: 14px;
     }
 
-    /* header */
+    header
 
     .profile-image {
         width: 147px;
@@ -512,7 +648,7 @@ a {
     .header-section {
         gap: 7px;
     }
-    /* Proficiency section */
+    Proficiency section
 
     .proficiency-section {
         max-width: 318px;
@@ -579,7 +715,7 @@ a {
         gap: 0px;
     }
 
-    /* Skills */
+    Skills
 
     .skill-section {
         max-width: 294px;
@@ -601,7 +737,7 @@ a {
         margin: 12px 0px 16px 12px;
     }
 
-    /* Projects */
+    Projects
 
     .project-section {
         border-radius: 12px;
@@ -647,7 +783,7 @@ a {
         gap: 10px;
     }
 
-    /* Education */
+    Education
 
     .education-section {
         max-width: 295px;
@@ -687,7 +823,7 @@ a {
         gap: 10px;
     }
 
-    /* tools */
+    tools
 
     #aside-h2 {
         margin: 0px 0px 10px 0px;
@@ -703,7 +839,6 @@ a {
         gap: 3px;
         border-radius: 6px;
         padding: 20px 0px 20px 13px;
-        /* padding: 10px; */
         margin-bottom: 0px;
     }
 
@@ -742,7 +877,7 @@ a {
         margin: 18px 0px;
     }
     
-    /* Experience */
+    Experience
 
 
     #experience-h2 {
@@ -795,7 +930,7 @@ a {
         margin-bottom: 8px
     }
     
-    /* Footer */
+   
 
     .footer-section{
         border-radius: 12px;
@@ -820,4 +955,4 @@ a {
         margin: 8px 0px 0px 0px;
     }
 
-}
+} */
