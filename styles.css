@@ -783,19 +783,16 @@ a {
     }
 
     .experience-flex {
-        display: block
+        display: block;
     }
 
     .recent-btn {
-        width: 123px;
-        padding: 8px 16px;
-        background-color: #D76239;
-        color: white;
-        border: none;
-        border-radius: 142px;
-        font-size: 14px;
-        font-weight: 500;
-        margin: 0px 16px;
+        width: 61px;
+        padding: 2px 6px;
+        border-radius: 60px;
+        font-size: 8px;
+        margin-left: 60%;
+        margin-bottom: 8px
     }
     
     /* Footer */
