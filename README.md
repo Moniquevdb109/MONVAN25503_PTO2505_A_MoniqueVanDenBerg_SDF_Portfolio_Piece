@@ -39,3 +39,4 @@ I built a fully responsive, Figma-matching resume site that includes the followi
 
 ## 📽️ Presentation Video Link
 
+https://www.loom.com/share/4d9897c6274343188cab65ded09373d4?sid=5c59c55d-3c53-4f4c-a6d7-0bfa45a78287
