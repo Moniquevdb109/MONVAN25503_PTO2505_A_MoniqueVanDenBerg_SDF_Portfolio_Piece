@@ -477,11 +477,11 @@ a {
     }
 
     h1  {
-        font-size: 32px;
+        font-size: 30px;
 }
 
     h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .intro-paragraph {
@@ -495,10 +495,9 @@ a {
     }
 
     .intro-section {
-        width: 458px;
+        width: 400px;
         padding: 40px 30px;
         border-radius: 25px;
-
     }
 
     .header-section {
@@ -567,7 +566,7 @@ a {
     /* skills */
 
     .skill-section {
-        width: 420px;
+        width: 390px;
         height: auto;
         border-radius: 25px;
         margin: 28px 0px;
@@ -587,9 +586,213 @@ a {
 
     #skill-h2 {
         margin: 28px 0px 25px 28px;
+        font-size: 22px;
     }
 
-    
+   /* projects */
+
+    .project-section {
+        border-radius: 25px;
+        max-width: 690px;
+        height: auto;
+        padding: 0px 15px 0px 30px;
+        font-size: 12px;
+        border-radius: 25px;
+    }
+
+    #project-h2 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .project-h3 {
+        font-size: 14px;
+    }
+
+    .project-name {
+        padding: 6px 0px;
+    }
+
+    .project-card {
+        max-width: 290px;
+        height: auto;
+        border-radius: 25px;
+        padding: 19px 19px 0px 19px;
+        margin-bottom: 20px;
+    }
+
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0px;
+    }
+
+    /* education */
+
+    .education-section {
+        max-width: 540px;
+        border-radius: 25px;
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    #education-h2 {
+        padding: 0px 0px 0px 12px;
+        margin: 0px 0px 10px 0px;
+        font-size: 22px;
+    }
+
+    .education-h3 {
+        font-size: 12px;
+    }
+
+    .education-h4 {
+        font-size: 10px;
+    }
+
+    .education-par {
+        font-size: 10px;
+    }
+
+    .education-summary {
+        font-size: 10px;
+    }
+    .education-layout {
+        display: grid;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .education-grid {
+        gap: 12px;
+    }
+
+    #aside-h2 {
+        margin: 0px 0px 15px 0px;
+        font-size: 22px;
+    }
+    .aside-section {
+        max-width: auto;
+        padding: 13px 20px 18px 20px;
+        border-radius: 25px;
+    }
+
+
+    .tool-div {
+        gap: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tool-container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, auto);
+        gap: 20px;
+    }
+
+    .tool-img{
+        width: 25px;
+        height: 20px;
+    }
+
+    .tool-btn {
+        border-radius: 59px;
+        padding: 2px 6px;
+        font-size: 8px;
+        top: -6px;
+        left: 25px;
+    }
+
+    .btn-two{
+        margin-left: 5px;
+    }
+
+    .btn-three {
+        margin-left: 5px;
+    }
+
+    .education-tool-container {
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 28px;
+        margin-bottom: 28px
+    }
+
+    /* experience */
+
+    #experience-h2 {
+        margin: 0px 0px 20px 0px;
+        font-size: 22px;
+    }
+
+    .experience-h3 {
+        font-size: 12px;
+    }
+
+    .experience-h4 {
+        font-size: 10px;
+    }
+
+    .par-info {
+        font-size: 10px;
+    }
+
+    .experience-summary{
+        font-size: 10px;
+    }
+
+    .experience-section {
+        padding: 20px;
+        max-width: 700px;
+        border-radius: 25px;
+        
+    }
+
+    .experience-layout {
+        border-radius: 25px;
+        padding: 12px;
+    }
+
+    .experience-grid {
+        gap: 15px;
+    }
+
+    .experience-flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .recent-btn {
+        width: 80px;
+        padding: 6px 15px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    /* footer */
+
+    .footer-section{
+        border-radius: 25px;
+        padding: 20px;
+        max-width: 706px;
+        margin-top: 28px;
+    }
+
+    #footer-h2 {
+        font-size: 22px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #footer-info {
+        font-size: 16px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footer-par{
+        margin: 8px 0px 3px 0px;
+    }
 }
 
 
